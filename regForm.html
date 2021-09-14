@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1><u><b>Registration form</b></u></h1>
+    <div>
+      <h3>First Name:*<input type="text" name="first_name" placeholder="First name..."></h3>
+      <h3>Last Name:*<input type="text" name="last_name" placeholder="Last name..."></h3>
+      <h3>Email Address:*<input type="text" name="email" placeholder="Email please..."></h3>
+      <h3>Password:*<input type="password" name="password"></h3>
+      <h3>Confirm Password:*<input type="password" name="confirm_password"></h3>
+      <h3>Birthdate:*<input type="date" name="birthday"></h3>
+    </div>
+    <div>
+      <h3>Gender Identity:</h3>
+      <input type="radio" name="gender" value="female" id="Female"><label for="Female">Female</label>
+      <input type="radio" name="gender" value="male" id="Male"><label for="Male">Male</label>
+      <input type="radio" name="gender" value="non" id="non"><label for="non">Non-Binary</label>
+      <input type="radio" name="gender" value="noSay" id="noSay"><label for="noSay">Prefer not to say.</label>
+    </div>
+    <div>
+      <h3>A short description about yourself:</h3>
+      <textarea name="description" cols="30" rows="4" placeholder="What do you like? Hobbies? Strong suits?"></textarea>
+    </div>
+    <div>
+      <h3>Favorite Language:
+        <select name="snack">
+        <option>JavaScript</option>
+        <option>HTML</option>
+        <option>Python</option>
+        <option>C++</option>
+        </select>
+      </h3>
+    </div>
+    <div>
+      <input type="checkbox" name="accept" id="accept">
+      <label for="accept">Yes, I would like to recieve periodic email updates.<label>
+    </div>
+    <div>
+      <input type="submit" value="Create Account">
+    </div>
+    <p>* Indicates that the field is required. </p>
+
+
+  
+</body>
+</html>
